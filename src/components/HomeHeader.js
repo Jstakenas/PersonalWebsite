@@ -7,15 +7,7 @@ class HomeHeader extends Component {
 
     render() {
         return (
-            <div>
-                <div className="header">
-                    jordan stakenas
-                </div>
-                <div className="linebreak"/>
-                <div className="subheader">
-                    developer//engineer//for hire
-                </div>
-            </div>
+            <div></div>
         )
     }
 }

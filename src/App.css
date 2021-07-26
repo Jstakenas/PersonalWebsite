@@ -32,9 +32,9 @@
 }
 
 .header{
-  width: 18%;
+  width: 25%;
   text-align: left;
-  padding-left: 2.5%;
+  padding-left: 2%;
   padding-top: 0.5%;
   margin-bottom: -15px;
   background-color: #000;
@@ -47,20 +47,24 @@
   width: 80%;
   height: 3px;
   background-color: #CCC;
-  margin-left: 17.5%;
+  margin-left: 16.9%;
   margin-top: 0px;
   margin-right: 5%;
 }
 
 .subheader{
   text-align: left;
-  padding-left: 3.2%;
+  padding-left: 2.7%;
   padding-top: 0%;
   margin-top: -2px;
   background-color: #000;
   color: #B754AC;
   font-size: small;
   font-family: "Courier New";
+}
+
+.body{
+  height: 89%;
 }
 
 .welcome{
@@ -77,12 +81,29 @@
   font-family: "Courier New";
   background-color: transparent;
   text-align: left;
-  padding-left: 10%;
+  padding-left: 20%;
+  height: 80%;
   font-size: larger;
 }
 
-body{
+.watermark {
+  text-align: left;
+  font-size: larger;
+  color: #CCC;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+
+html, body, #root, #root>div{
   background-color: #000;
+  margin: 0;
+  height: 100%;
+}
+
+lic {
+  display: list-item;
+  list-style-type: "_";
+  padding-inline-start: 0ch;
 }
 
 @keyframes App-logo-spin {

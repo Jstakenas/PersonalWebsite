@@ -8,16 +8,30 @@ class Home extends Component {
 
     render() {
             return (
-                <div>
-                    <h1 className="welcome">
-                    Welcome
-                    </h1>
+                <div  style={{height: 100+"%"}}>
+                    <div>
+                        <div className="header">
+                            jordan stakenas
+                        </div>
+                        <div className="linebreak"/>
+                        <div className="subheader">
+                            developer//engineer//for hire
+                        </div>
+                    </div>
+                    <div className="body">
+                        <h1 className="welcome">
+                        Welcome
+                        </h1>
 
-                    <br/>
-                    <h2 className="ProjList">
-                    this website is heavily WIP. <br/> If you got here.. how?
-                    </h2>
-
+                        <br/>
+                        <div className="ProjList">
+                            <ul>
+                                <lic>this website is heavily WIP.</lic>
+                                <lic>If you got here.. how?</lic>
+                            </ul>
+                        </div>
+                    </div>
+                    <div className="watermark"><b>-__-</b></div>
                 </div>
             )
     }
