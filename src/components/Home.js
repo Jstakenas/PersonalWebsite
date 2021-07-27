@@ -39,7 +39,7 @@ class Home extends Component {
                         </div>
                         <div className="bodyS3">
                             <div className="bodyS4">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur lobortis justo et sapien efficitur mollis. Cras scelerisque pellentesque tellus in lacinia. Vestibulum vehicula magna ac nisi dapibus dignissim. Curabitur ut volutpat libero, sed ultricies nisi. Praesent viverra ex id odio convallis, at aliquet dolor gravida. Duis vitae arcu non leo pretium dictum non in elit. Suspendisse nibh ante, facilisis venenatis libero sit amet, tristique facilisis nunc.
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur lobortis justo et sapien efficitur mollis. Cras
                             </div>
                         </div>
                     </div>
