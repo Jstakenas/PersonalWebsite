@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  color: #B754AC;
+  color: #CCC;
 }
 
 .App-logo {
@@ -32,19 +32,34 @@
 }
 
 .header{
-  width: 25%;
+  width: 100%;
   text-align: left;
   padding-left: 2%;
   padding-top: 0.5%;
-  margin-bottom: -15px;
+  margin-bottom: -12px;
   background-color: #000;
+}
+
+.headerName{
+  width: 50%;
   color: #B754AC;
   font-size: xx-large;
   font-family: "Courier New";
+  margin-right: 79%;
+  display: inline;
+}
+
+.headerHome{
+  width:50%;
+  color: #CCC;
+  font-size: x-large;
+  font-family: "Courier New";
+  text-align: right;
+  display: inline;
 }
 
 .linebreak{
-  width: 80%;
+  width: 77.75%;
   height: 3px;
   background-color: #CCC;
   margin-left: 16.9%;
@@ -54,24 +69,50 @@
 
 .subheader{
   text-align: left;
-  padding-left: 2.7%;
+  padding-left: 2.9%;
   padding-top: 0%;
   margin-top: -2px;
   background-color: #000;
-  color: #B754AC;
+  color: #CCC;
   font-size: small;
   font-family: "Courier New";
 }
 
 .body{
-  height: 89%;
+  height: 85%;
+}
+
+.bodyS1{
+  width: 48.5%;
+  height: 100%;
+  float: left;
+}
+.bodyS2{
+  width: 48.5%;
+  height: 100%;
+  float: left;
+}
+
+.bodyS3{
+  width: 3%;
+  height: 100%;
+  float: left;
+}
+
+.bodyS4{
+  transform-origin: top left;
+  transform: rotate(-90deg);
+  position: relative;
+  width: 800px;
+  top: 105%;
+  left: 20%;
 }
 
 .welcome{
   text-align: left;
   padding-left: 7.5%;
   padding-top: 2.5%;
-  color: #B754AC;
+  color: #CCC;
   font-size: 8em;
   font-family: "Courier New";
   background-color: transparent;
@@ -80,6 +121,7 @@
 .ProjList{
   font-family: "Courier New";
   background-color: transparent;
+  color: #CCC;
   text-align: left;
   padding-left: 20%;
   height: 80%;
@@ -90,6 +132,7 @@
   text-align: left;
   font-size: larger;
   color: #CCC;
+  padding-top: 30px;
   padding-bottom: 20px;
   padding-left: 20px;
 }
