@@ -1,11 +1,8 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import '../App.css';
 
 class Home extends Component {
-    constructor(props) {
-        super(props);
-    }
-
     render() {
             return (
                 <div  style={{height: 100+"%"}}>
@@ -28,18 +25,24 @@ class Home extends Component {
                             <br/><br/>
                             <div className="ProjList">
                                 <ul>
-                                    <lic>this website is heavily WIP.</lic>
-                                    <br/>
-                                    <lic>If you got here.. how?</lic>
+                                    <lic>
+                                        <Link to="/project1">project 1</Link>
+                                    </lic>
+                                    <lic>
+                                        <Link to="/project2">project 2</Link>
+                                    </lic>
+                                    <lic>
+                                        <Link to="/project3">project 3</Link>
+                                    </lic>
                                 </ul>
                             </div>
                         </div>
                         <div className="bodyS2">
-                            text
+                           empty text
                         </div>
                         <div className="bodyS3">
                             <div className="bodyS4">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur lobortis justo et sapien efficitur mollis. Cras
+                                Lorem ipsum dolor sit amet,  Nunc sollicitudin interdum lectus vel lacinia. Donec semper felis at libero aliquam pretium rci ....
                             </div>
                         </div>
                     </div>
