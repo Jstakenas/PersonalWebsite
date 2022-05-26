@@ -4,7 +4,7 @@ As can be seen below, this website was built out using react, as thats what i'm 
 Despite the simplicity of the website, i decided to stick with react anyways in order to allow
 for ease of expansion. 
 
-## Getting Started with Create React App
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
